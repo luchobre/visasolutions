@@ -1,0 +1,34 @@
+.swiper {
+  width: 80%;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  filter: blur(6px);
+}
+
+.swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+}
+
+.backdrop-blur-xl {
+  backdrop-filter: blur(10px);
+}
